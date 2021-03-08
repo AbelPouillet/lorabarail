@@ -1,0 +1,7 @@
+Release SLcodec v2.5.1 (19/11/20) published on 27/11/20
+# Tracker - Subject
+ Evol - decoding of the answer to GET_VERSION
+ Bug - SenlabP: decoding specifics parameters
+ Bug - ALL Senlab (FW version 02.xx.xx) : request_join_configuration encoder
+ Bug - ALL Senlab (FW version 02.xx.xx) : request_internal_clock_activation encoder
+

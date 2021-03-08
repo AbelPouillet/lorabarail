@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@crapougnax/cayennelpp": "^1.2.0",
+    "cayenne-lpp": "^1.0.2",
+    "codec": "0.0.3",
+    "cpgx-cayennelpp": "^1.0.1",
+    "express": "^4.17.1",
+    "gmail-send": "^1.8.10",
+    "lpp-node-extended": "^2.0.0",
+    "mail": "^0.2.3",
+    "mail-merger": "^1.2.3",
+    "mongoose": "^5.11.17",
+    "nodemailer": "^6.4.18",
+    "request": "^2.88.2",
+    "ttn": "^2.3.3"
+  }
+}

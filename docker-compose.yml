@@ -1,0 +1,20 @@
+version: "3"
+services: 
+  back-lora-temperature:
+    build: 
+      context: ./
+    #image: test-lora:latest
+    ports: 
+      - 3000:3000
+    networks: 
+      localhost:
+  front-lora:
+    build: 
+      context: ../front-lora/
+    #image: front-lora:latest
+    ports: 
+      - 4200:4200
+    networks: 
+      localhost:
+networks: 
+  localhost:
